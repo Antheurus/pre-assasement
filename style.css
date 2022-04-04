@@ -1,0 +1,111 @@
+body{
+	background-image: url(kapal.jpg);
+	color: rgba(255,255,255,.6);
+	margin:0;
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header{
+	width: 100%;
+	height: 75px;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 17px;
+	overflow: hidden;
+	font-family: 'KeepCalm', arial;
+	background:linear-gradient(120deg, royalblue 20%, skyblue 60%, rgba(255,255,255,0) 50%);
+}
+.header li{
+	list-style: none;
+	display: inline;
+	margin: 10px 20px;
+	padding:5px; 
+	margin-left: -15px;
+}
+.header li a {
+	text-decoration: none;
+	color: inherit;
+}
+.header li a:hover{
+	color: rgba(255,255,255,1);
+	transition: .2s ease-out;
+	border-radius: 8px;
+}
+.header .book{
+	background-color: white;
+	height: 75px;
+	text-align: right;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.header h3 a{
+	color: black;
+	position: absolute;
+	top: 32px;
+	right: 40px;
+	text-decoration: none;
+}
+.header h3 a:hover{
+	color: royalblue;
+	transition: .3s ease-out;
+}
+.container{
+	width: 980px;
+	margin: auto;
+	transform: translate(0,50%);
+	background-color: #fff;
+	filter: opacity(.6);
+	color: rgba(0,0,0,1);
+	font-family: 'Lemon/Milk',arial;
+	font-size: 20px;
+	padding: 20px 50px;
+	box-sizing: border-box;
+}
+.container h1{
+	float: left;
+	padding: 20px;
+	transform: translateX(-20px);
+	text-align: justify;
+	width: 41%;
+}
+.cf {clear: both;}
+.container p{
+	transform: translate(0, 30px);
+	text-align: justify;
+	line-height: 1.15em;
+}
+footer{
+	position: absolute; 
+	bottom: 0;
+	width: 100%;
+}
+footer .fottp{
+	background-color: rgba(255,255,255,.3);
+	height: 20px;
+}
+footer .footer{
+	background-color: rgba(255, 255, 255, .7);
+	padding: 5px 50px;
+	color: #333;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+@font-face{
+	font-family: 'Lemon/Milk';
+	src:url('LemonMilk.otf') format('opentype'); 
+}
+@font-face{
+	font-family: 'Lemon/Milklight';
+	src:url('LemonMilklight.otf') format('opentype'); 
+}
+@font-face{
+	font-family: 'KeepCalm';
+	src:url('KeepCalm-Medium.ttf') format('truetype'); 
+}
